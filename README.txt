@@ -28,7 +28,7 @@ wget http://spades.bioinf.spbau.ru/release3.6.0/SPAdes-3.6.0-Linux.tar.gz
 tar -xzf SPAdes-3.6.0-Linux.tar.gz
 cd SPAdes-3.6.0-Linux/bin/
 
-It is in SPAdes-3.6.0-Linux/bin/ where you must download and extract the contents of Assembly_Tester.gz in order for Assembly Tester to run. Assambly Tester is made up of 3 scripts: friendly_fragmenter.py, friendly_test_velvet.py and friendly_test_spades.py. friednly_fragmenter.py fragments the genome. friendly_test_velvet.py assembles the fragments in velvet. friendly_test_spades.py assembles the fragment using SPAdes and also generates the statistics. Under any circumstances, only friendly_test_spades.py should be run, as the functions of the two other scripts are imported into this one.
+It is in SPAdes-3.6.0-Linux/bin/ where you must download and extract the contents of Assembly_Tester.zip in order for Assembly Tester to run. Assambly Tester is made up of 3 scripts: friendly_fragmenter.py, friendly_test_velvet.py and friendly_test_spades.py. friednly_fragmenter.py fragments the genome. friendly_test_velvet.py assembles the fragments in velvet. friendly_test_spades.py assembles the fragment using SPAdes and also generates the statistics. Under any circumstances, only friendly_test_spades.py should be run, as the functions of the two other scripts are imported into this one.
 
 EXAMPLE OF USE / WALKTHROUGH:
 
